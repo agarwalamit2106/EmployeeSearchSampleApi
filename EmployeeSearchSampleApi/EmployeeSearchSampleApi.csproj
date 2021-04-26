@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeSearchSample.Data\EmployeeSearchSample.Data.csproj" />
+    <ProjectReference Include="..\EmployeeSearchSample.Entity\EmployeeSearchSample.Entity.csproj" />
+  </ItemGroup>
+
+
+</Project>
